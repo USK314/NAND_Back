@@ -29,8 +29,8 @@ if not is_local:
     os.remove(tmp_cred_file_path)
 
 firebase_app = firebase_admin.initialize_app(cred, {
-    'storageBucket': 'nand.appspot.com',
-    'projectId': 'nand',
+    'storageBucket': 'nand-e7173.appspot.com',
+    'projectId': 'nand-e7173',
 })
 
 bucket = storage.bucket()
